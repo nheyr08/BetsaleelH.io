@@ -58,7 +58,7 @@ export default class About extends Component {
                 </div> */}
                 <div className="desc">
                     <h3>Embedded Systems</h3>
-                    <p style={{fontSize: "18px"}}>I have experience in designing and implementing embedded systems using C and C++ for microcontrollers and FPGAs. I have worked on projects involving the design of a 4-bit CPU and a 16-bit RISC-V CPU.</p>
+                    <p style={{fontSize: "18px"}}>I have experience in designing and implementing embedded systems using C and C++ for microcontrollers and FPGAs. I have worked on projects involving the design of a 32-bit MIPS CPU and a 16-bit RISC-V CPU.</p>
                 </div>
             </div>
             </div>
