@@ -14,9 +14,11 @@ export default class About extends Component {
                     <div className="about-desc">
                     <span  className="heading-meta"><b>Know more about me</b></span>
                     <h2 className="claudy-heading">Who Am I?</h2>
-                    <p style={{fontSize: "18px"}}>Since I was a little boy, I have always nourished a strong passion for understanding and learning the core technologies that drive the World Wide Web and Mobile applications.
-                    That passion pushes me to constantly explore new technologies. Which makes me always open to collaboration.</p>
-                    <p style={{fontSize: "18px"}}> Besides technology, I also enjoy playing music, work out and travel</p>
+                    <p style={{fontSize: "18px"}}> Im an avid programmer with 4 and half years of coding and computer engineering graduate student with a strong interest in AI engines and integrated circuit design. 
+                    Since I was a little boy in Haiti, I have always nourished a strong passion for the core technologies that drive the World we live in today. 
+                    That passion has drove me to pursue my dream program in Electrical and Computer Engineering at the second most prestious university in Taiwan.
+                    However My journey across the globe was not without it's fair share of challenges. Those experiences shaped me unto the person Im today. 
+                    So let's connect and have a chat!</p>
                      
                     </div>
                 </div>
@@ -41,7 +43,7 @@ export default class About extends Component {
                 </span>
                 <div className="desc">
                     <h3>Machine learning Frameworks </h3>
-                    <p style={{fontSize: "18px"}}>I have experience Programming with python's, Tensorflow and Pytorch. I also explore Python's OpenCV library to build the AI track project, as well as Scikit-learn during my Machine learning Class</p>
+                    <p style={{fontSize: "18px"}}>I have experience Programming with Python for Neural Architecture Search to leverage efficiency, Model Compression and Acceleration. I have worked in Computer Vision projects as well as LLM for Edge devices.</p>
                 </div>
                 </div>
             </div>
@@ -50,13 +52,28 @@ export default class About extends Component {
                 <span className="icon">
                     <i className="icon-code" />
                 </span>
-                <div className="desc">
+                {/* <div className="desc">
                     <h3>Data Structure and Algorithms</h3>
                     <p style={{fontSize: "18px"}}>I have a good understanding in Data Structure and Algorithms from my classes at NYCU I am also comfortable using Virtual Studio code, Git and Linux to get the optimal solution to problems involving Programming</p>
+                </div> */}
+                <div className="desc">
+                    <h3>Embedded Systems</h3>
+                    <p style={{fontSize: "18px"}}>I have experience in designing and implementing embedded systems using C and C++ for microcontrollers and FPGAs. I have worked on projects involving the design of a 4-bit CPU and a 16-bit RISC-V CPU.</p>
+                </div>
+            </div>
+            </div>
+            <div className="col-md-4 text-center animate-box">
+                <div className="services color-6">
+                <span className="icon">
+                    <i className="icon-data" />
+                </span>
+                <div className="desc">
+                    <h3>Integrated Circuit Design</h3>
+                    <p style={{fontSize: "18px"}}>I have experience in designing and implementing digital circuits using Verilog and SystemVerilog. I have worked on projects involving AI Engine for the Sianameze Neural Network as well as CNN architectures.</p>
                 </div>
                 </div>
             </div>
-            <div className="col-md-4 text-center animate-box">
+            {/* <div className="col-md-4 text-center animate-box">
                 <div className="services color-3">
                 <span className="icon">
                     <i className="icon-database" />
@@ -66,7 +83,7 @@ export default class About extends Component {
                     <p style={{fontSize: "18px"}}> As you navigate through the rest of your life, be open to collaboration. Other people and other people’s ideas are often better than your own. </p>
                 </div>
                 </div>
-            </div>
+            </div> */}
             
             </div>
         </div>
